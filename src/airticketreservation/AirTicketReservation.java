@@ -219,7 +219,7 @@ public class AirTicketReservation {
              ticketArray[i].print_ticket_details();
           }
         }
-       System.out.println("\nTotal price of tickets sold: "+totalSales+"\n");
+       System.out.println("\nTotal price of tickets sold: "+totalSales+"£\n");
    }
    
    static void search_ticket(int[][] seatsArray,Scanner myObj,Ticket[] ticketArray){
